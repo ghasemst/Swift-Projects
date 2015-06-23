@@ -14,6 +14,9 @@
 		B7AC04961B3792D900EB0EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AC04941B3792D900EB0EB4 /* LaunchScreen.storyboard */; };
 		B7AC04A11B3792D900EB0EB4 /* User_Login_and_RegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC04A01B3792D900EB0EB4 /* User_Login_and_RegistrationTests.swift */; };
 		B7AC04AC1B3792D900EB0EB4 /* User_Login_and_RegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC04AB1B3792D900EB0EB4 /* User_Login_and_RegistrationUITests.swift */; };
+		B7AC04BA1B37990200EB0EB4 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC04B91B37990200EB0EB4 /* RegisterPageViewController.swift */; };
+		B7AC04F61B38432E00EB0EB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC04F51B38432E00EB0EB4 /* LoginViewController.swift */; };
+		B7AC04F91B384F5000EB0EB4 /* login_asset_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7AC04F81B384F5000EB0EB4 /* login_asset_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B7AC04A71B3792D900EB0EB4 /* User Login and RegistrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Login and RegistrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AC04AB1B3792D900EB0EB4 /* User_Login_and_RegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Login_and_RegistrationUITests.swift; sourceTree = "<group>"; };
 		B7AC04AD1B3792D900EB0EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7AC04B91B37990200EB0EB4 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		B7AC04F51B38432E00EB0EB4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7AC04F81B384F5000EB0EB4 /* login_asset_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_asset_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		B7AC048A1B3792D900EB0EB4 /* User Login and Registration */ = {
 			isa = PBXGroup;
 			children = (
+				B7AC04F71B384F3700EB0EB4 /* image */,
 				B7AC048B1B3792D900EB0EB4 /* AppDelegate.swift */,
 				B7AC048D1B3792D900EB0EB4 /* ViewController.swift */,
 				B7AC048F1B3792D900EB0EB4 /* Main.storyboard */,
+				B7AC04B91B37990200EB0EB4 /* RegisterPageViewController.swift */,
+				B7AC04F51B38432E00EB0EB4 /* LoginViewController.swift */,
 				B7AC04921B3792D900EB0EB4 /* Assets.xcassets */,
 				B7AC04941B3792D900EB0EB4 /* LaunchScreen.storyboard */,
 				B7AC04971B3792D900EB0EB4 /* Info.plist */,
@@ -123,6 +132,14 @@
 				B7AC04AD1B3792D900EB0EB4 /* Info.plist */,
 			);
 			path = "User Login and RegistrationUITests";
+			sourceTree = "<group>";
+		};
+		B7AC04F71B384F3700EB0EB4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B7AC04F81B384F5000EB0EB4 /* login_asset_1.jpg */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AC04F91B384F5000EB0EB4 /* login_asset_1.jpg in Resources */,
 				B7AC04961B3792D900EB0EB4 /* LaunchScreen.storyboard in Resources */,
 				B7AC04931B3792D900EB0EB4 /* Assets.xcassets in Resources */,
 				B7AC04911B3792D900EB0EB4 /* Main.storyboard in Resources */,
@@ -255,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AC04F61B38432E00EB0EB4 /* LoginViewController.swift in Sources */,
 				B7AC048E1B3792D900EB0EB4 /* ViewController.swift in Sources */,
 				B7AC048C1B3792D900EB0EB4 /* AppDelegate.swift in Sources */,
+				B7AC04BA1B37990200EB0EB4 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
